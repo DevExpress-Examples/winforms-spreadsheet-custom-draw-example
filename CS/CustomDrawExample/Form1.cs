@@ -1,9 +1,9 @@
 ﻿#region #usings
-using DevExpress.Spreadsheet;
-using DevExpress.XtraSpreadsheet;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using DevExpress.Spreadsheet;
+using DevExpress.XtraSpreadsheet;
 #endregion #usings
 
 namespace CustomDrawExample
@@ -32,7 +32,7 @@ namespace CustomDrawExample
             e.Handled = true;
             Color foreColor = Color.Blue;
             Rectangle textBounds = e.Bounds;
-            e.Appearance.FontStyleDelta = FontStyle.Italic;
+            Font headingFont = new Font(e.Font, FontStyle.Italic);
             Worksheet settingsSheet = spreadsheetControl1.Document.Worksheets["SheetSettings"];
             string text = settingsSheet.Cells[0, e.ColumnIndex].DisplayText;
             if (text != String.Empty)
@@ -41,7 +41,7 @@ namespace CustomDrawExample
                 formatHeaderText.LineAlignment = StringAlignment.Center;
                 formatHeaderText.Alignment = StringAlignment.Center;
                 formatHeaderText.Trimming = StringTrimming.EllipsisCharacter;
-                e.Graphics.DrawString(text, e.Font, e.Cache.GetSolidBrush(foreColor), textBounds, formatHeaderText);
+                e.Graphics.DrawString(text, headingFont, e.Cache.GetSolidBrush(foreColor), textBounds, formatHeaderText);
             }
         }
         #endregion #CustomDrawColumnHeader
@@ -63,13 +63,13 @@ namespace CustomDrawExample
 
             if ((e.RowIndex + 1) % 5 == 0)
             {
-                e.Appearance.FontStyleDelta = FontStyle.Bold;
+                System.Drawing.Font font = new Font(e.Font.FontFamily, e.Font.Size, FontStyle.Bold);
                 Rectangle textBounds = e.Bounds;
                 string text = (e.RowIndex + 1).ToString();
                 StringFormat formatHeaderText = new StringFormat();
                 formatHeaderText.LineAlignment = StringAlignment.Center;
                 formatHeaderText.Alignment = StringAlignment.Center;
-                e.Graphics.DrawString(text, e.Font, e.Cache.GetSolidBrush(Color.Red), textBounds, formatHeaderText);
+                e.Graphics.DrawString(text, font, e.Cache.GetSolidBrush(Color.Red), textBounds, formatHeaderText);
             }
             else
             {
@@ -91,21 +91,15 @@ namespace CustomDrawExample
         #region #CustomDrawCell
         void spreadsheetControl1_CustomDrawCell(object sender, CustomDrawCellEventArgs e)
         {
-            if (e.Cell.RowIndex == 0 || e.Cell.RowIndex >= 3)
-            {
-                using (Font headingFont = new Font("Times New Roman", e.Font.Size))
-                {
-                    string cellRef = e.Cell.GetReferenceR1C1(ReferenceElement.RowAbsolute | ReferenceElement.ColumnAbsolute, null);
-                    string formula = String.Format("=RANK.AVG({0},R{1}C{2}:R{3}C{4})", cellRef, e.Cell.RowIndex + 1, 2, e.Cell.RowIndex + 1, 10);
-                    int rank = (int)spreadsheetControl1.Document.Evaluate(formula).NumericValue;
-                    // The DevExpress.Docs.Text.NumberInWords class requires a reference to the DevExpress.Docs assembly. 
-                    // To redistribute the DevExpress.Docs assembly the DevExpress Universal subscription or the Document Server license is required.
-                    string rankText = DevExpress.Docs.Text.NumberInWords.Cardinal.ConvertToText(rank, DevExpress.Docs.Text.NumberCulture.Roman);
-                    if (rank > 0 && rank < 4) 
-                    { 
-                        e.Graphics.DrawString(rankText, headingFont, e.Cache.GetSolidBrush(Color.Red), e.Bounds.Left, e.Bounds.Top); 
-                    }
-                }
+            if (e.Cell.RowIndex == 0 || e.Cell.RowIndex >= 3) {
+                Font headingFont = new Font("Times New Roman", e.Font.Size);
+                string cellRef = e.Cell.GetReferenceR1C1(ReferenceElement.RowAbsolute | ReferenceElement.ColumnAbsolute, null);
+                string formula = String.Format("=RANK.AVG({0},R{1}C{2}:R{3}C{4})", cellRef, e.Cell.RowIndex + 1, 2, e.Cell.RowIndex + 1, 10);
+                int rank = (int)spreadsheetControl1.Document.Evaluate(formula).NumericValue;
+                // The DevExpress.Docs.Text.NumberInWords class requires a reference to the DevExpress.Docs assembly. 
+                // To redistribute the DevExpress.Docs assembly the DevExpress Universal subscription or the Document Server license is required.
+                string rankText = DevExpress.Docs.Text.NumberInWords.Cardinal.ConvertToText(rank, DevExpress.Docs.Text.NumberCulture.Roman);
+                if (rank > 0 && rank < 4) e.Graphics.DrawString(rankText, headingFont, e.Cache.GetSolidBrush(Color.Red), e.Bounds.Left, e.Bounds.Top);
             }
         }
         #endregion #CustomDrawCell
@@ -120,7 +114,7 @@ namespace CustomDrawExample
                     System.Drawing.Drawing2D.HatchStyle.BackwardDiagonal,
                     Color.LightGray,
                     Color.White);
-                e.Graphics.FillRectangle(hBrush, e.FillBounds);
+                e.Graphics.FillRectangle(hBrush,e.FillBounds);
             }
         }
         #endregion #CustomDrawCellBackground
