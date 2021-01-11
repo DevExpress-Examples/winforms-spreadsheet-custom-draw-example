@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace CustomDrawExample
+﻿Namespace CustomDrawExample
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -618,14 +616,29 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem4.CommandName = "ConditionalFormattingCommandGroup"
 			Me.spreadsheetCommandBarSubItem4.Id = 75
-			Me.spreadsheetCommandBarSubItem4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem5), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem6), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem3), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem7)})
+			Me.spreadsheetCommandBarSubItem4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem5),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem6),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem2),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem3),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem7)
+			})
 			Me.spreadsheetCommandBarSubItem4.Name = "spreadsheetCommandBarSubItem4"
 			' 
 			' spreadsheetCommandBarSubItem5
 			' 
 			Me.spreadsheetCommandBarSubItem5.CommandName = "ConditionalFormattingHighlightCellsRuleCommandGroup"
 			Me.spreadsheetCommandBarSubItem5.Id = 83
-			Me.spreadsheetCommandBarSubItem5.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem43), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem44), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem45), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem46), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem47), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem48), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem49)})
+			Me.spreadsheetCommandBarSubItem5.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem43),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem44),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem45),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem46),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem47),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem48),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem49)
+			})
 			Me.spreadsheetCommandBarSubItem5.Name = "spreadsheetCommandBarSubItem5"
 			' 
 			' spreadsheetCommandBarButtonItem43
@@ -681,7 +694,14 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem6.CommandName = "ConditionalFormattingTopBottomRuleCommandGroup"
 			Me.spreadsheetCommandBarSubItem6.Id = 90
-			Me.spreadsheetCommandBarSubItem6.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem50), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem51), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem52), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem53), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem54), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem55)})
+			Me.spreadsheetCommandBarSubItem6.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem50),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem51),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem52),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem53),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem54),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem55)
+			})
 			Me.spreadsheetCommandBarSubItem6.Name = "spreadsheetCommandBarSubItem6"
 			' 
 			' spreadsheetCommandBarButtonItem50
@@ -971,7 +991,23 @@ Namespace CustomDrawExample
 			Me.spreadsheetCommandBarSubItem1.ButtonGroupTag = "{DDB05A32-9207-4556-85CB-FE3403A197C7}"
 			Me.spreadsheetCommandBarSubItem1.CommandName = "FormatBordersCommandGroup"
 			Me.spreadsheetCommandBarSubItem1.Id = 32
-			Me.spreadsheetCommandBarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem16), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem17), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem18), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem19), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem20), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem21), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem22), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem23), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem24), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem25), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem26), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem27), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem28), New DevExpress.XtraBars.LinkPersistInfo(Me.changeBorderLineColorItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.changeBorderLineStyleItem1)})
+			Me.spreadsheetCommandBarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem16),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem17),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem18),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem19),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem20),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem21),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem22),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem23),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem24),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem25),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem26),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem27),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem28),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.changeBorderLineColorItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.changeBorderLineStyleItem1)
+			})
 			Me.spreadsheetCommandBarSubItem1.Name = "spreadsheetCommandBarSubItem1"
 			Me.spreadsheetCommandBarSubItem1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
 			' 
@@ -1202,7 +1238,12 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem2.CommandName = "EditingMergeCellsCommandGroup"
 			Me.spreadsheetCommandBarSubItem2.Id = 59
-			Me.spreadsheetCommandBarSubItem2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem12), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem31), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem32), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem33)})
+			Me.spreadsheetCommandBarSubItem2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem12),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem31),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem32),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem33)
+			})
 			Me.spreadsheetCommandBarSubItem2.Name = "spreadsheetCommandBarSubItem2"
 			Me.spreadsheetCommandBarSubItem2.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
 			' 
@@ -1326,7 +1367,13 @@ Namespace CustomDrawExample
 			Me.spreadsheetCommandBarSubItem3.ButtonGroupTag = "{508C2CE6-E1C8-4DD1-BA50-6C210FDB31B0}"
 			Me.spreadsheetCommandBarSubItem3.CommandName = "FormatNumberAccountingCommandGroup"
 			Me.spreadsheetCommandBarSubItem3.Id = 65
-			Me.spreadsheetCommandBarSubItem3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem34), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem35), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem36), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem37), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem38)})
+			Me.spreadsheetCommandBarSubItem3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem34),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem35),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem36),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem37),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem38)
+			})
 			Me.spreadsheetCommandBarSubItem3.Name = "spreadsheetCommandBarSubItem3"
 			Me.spreadsheetCommandBarSubItem3.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
 			' 
@@ -1498,7 +1545,10 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem7.CommandName = "ConditionalFormattingRemoveCommandGroup"
 			Me.spreadsheetCommandBarSubItem7.Id = 96
-			Me.spreadsheetCommandBarSubItem7.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem56), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem57)})
+			Me.spreadsheetCommandBarSubItem7.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem56),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem57)
+			})
 			Me.spreadsheetCommandBarSubItem7.Name = "spreadsheetCommandBarSubItem7"
 			' 
 			' galleryFormatAsTableItem1
@@ -1539,7 +1589,11 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem8.CommandName = "InsertCellsCommandGroup"
 			Me.spreadsheetCommandBarSubItem8.Id = 99
-			Me.spreadsheetCommandBarSubItem8.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem58), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem59), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem60)})
+			Me.spreadsheetCommandBarSubItem8.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem58),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem59),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem60)
+			})
 			Me.spreadsheetCommandBarSubItem8.Name = "spreadsheetCommandBarSubItem8"
 			' 
 			' spreadsheetCommandBarButtonItem58
@@ -1564,7 +1618,11 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem9.CommandName = "RemoveCellsCommandGroup"
 			Me.spreadsheetCommandBarSubItem9.Id = 103
-			Me.spreadsheetCommandBarSubItem9.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem61), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem62), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem63)})
+			Me.spreadsheetCommandBarSubItem9.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem61),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem62),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem63)
+			})
 			Me.spreadsheetCommandBarSubItem9.Name = "spreadsheetCommandBarSubItem9"
 			' 
 			' spreadsheetCommandBarButtonItem61
@@ -1589,7 +1647,12 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem10.CommandName = "FormatCommandGroup"
 			Me.spreadsheetCommandBarSubItem10.Id = 107
-			Me.spreadsheetCommandBarSubItem10.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem64), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem65), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem11), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem72)})
+			Me.spreadsheetCommandBarSubItem10.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem64),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem65),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarSubItem11),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem72)
+			})
 			Me.spreadsheetCommandBarSubItem10.Name = "spreadsheetCommandBarSubItem10"
 			' 
 			' spreadsheetCommandBarButtonItem64
@@ -1608,7 +1671,14 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem11.CommandName = "HideAndUnhideCommandGroup"
 			Me.spreadsheetCommandBarSubItem11.Id = 116
-			Me.spreadsheetCommandBarSubItem11.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem66), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem67), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem68), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem69), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem70), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem71)})
+			Me.spreadsheetCommandBarSubItem11.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem66),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem67),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem68),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem69),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem70),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem71)
+			})
 			Me.spreadsheetCommandBarSubItem11.Name = "spreadsheetCommandBarSubItem11"
 			' 
 			' spreadsheetCommandBarButtonItem66
@@ -1657,7 +1727,13 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem12.CommandName = "EditingAutoSumCommandGroup"
 			Me.spreadsheetCommandBarSubItem12.Id = 118
-			Me.spreadsheetCommandBarSubItem12.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem73), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem74), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem75), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem76), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem77)})
+			Me.spreadsheetCommandBarSubItem12.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem73),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem74),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem75),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem76),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem77)
+			})
 			Me.spreadsheetCommandBarSubItem12.Name = "spreadsheetCommandBarSubItem12"
 			Me.spreadsheetCommandBarSubItem12.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
 			' 
@@ -1695,7 +1771,12 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem13.CommandName = "EditingFillCommandGroup"
 			Me.spreadsheetCommandBarSubItem13.Id = 124
-			Me.spreadsheetCommandBarSubItem13.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem78), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem79), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem80), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem81)})
+			Me.spreadsheetCommandBarSubItem13.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem78),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem79),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem80),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem81)
+			})
 			Me.spreadsheetCommandBarSubItem13.Name = "spreadsheetCommandBarSubItem13"
 			Me.spreadsheetCommandBarSubItem13.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
 			' 
@@ -1727,7 +1808,14 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem14.CommandName = "FormatClearCommandGroup"
 			Me.spreadsheetCommandBarSubItem14.Id = 129
-			Me.spreadsheetCommandBarSubItem14.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem82), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem83), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem84), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem85), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem86), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem87)})
+			Me.spreadsheetCommandBarSubItem14.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem82),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem83),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem84),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem85),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem86),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem87)
+			})
 			Me.spreadsheetCommandBarSubItem14.Name = "spreadsheetCommandBarSubItem14"
 			Me.spreadsheetCommandBarSubItem14.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText
 			' 
@@ -2029,7 +2117,11 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem15.CommandName = "PageSetupMarginsCommandGroup"
 			Me.spreadsheetCommandBarSubItem15.Id = 146
-			Me.spreadsheetCommandBarSubItem15.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem13), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem14), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem15)})
+			Me.spreadsheetCommandBarSubItem15.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem13),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem14),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem15)
+			})
 			Me.spreadsheetCommandBarSubItem15.Name = "spreadsheetCommandBarSubItem15"
 			' 
 			' spreadsheetCommandBarCheckItem13
@@ -2057,7 +2149,10 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem16.CommandName = "PageSetupOrientationCommandGroup"
 			Me.spreadsheetCommandBarSubItem16.Id = 150
-			Me.spreadsheetCommandBarSubItem16.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem16), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem17)})
+			Me.spreadsheetCommandBarSubItem16.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem16),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarCheckItem17)
+			})
 			Me.spreadsheetCommandBarSubItem16.Name = "spreadsheetCommandBarSubItem16"
 			' 
 			' spreadsheetCommandBarCheckItem16
@@ -2081,7 +2176,10 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem17.CommandName = "ArrangeBringForwardCommandGroup"
 			Me.spreadsheetCommandBarSubItem17.Id = 154
-			Me.spreadsheetCommandBarSubItem17.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem91), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem92)})
+			Me.spreadsheetCommandBarSubItem17.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem91),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem92)
+			})
 			Me.spreadsheetCommandBarSubItem17.Name = "spreadsheetCommandBarSubItem17"
 			' 
 			' spreadsheetCommandBarButtonItem91
@@ -2100,7 +2198,10 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem18.CommandName = "ArrangeSendBackwardCommandGroup"
 			Me.spreadsheetCommandBarSubItem18.Id = 157
-			Me.spreadsheetCommandBarSubItem18.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem93), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem94)})
+			Me.spreadsheetCommandBarSubItem18.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem93),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem94)
+			})
 			Me.spreadsheetCommandBarSubItem18.Name = "spreadsheetCommandBarSubItem18"
 			' 
 			' spreadsheetCommandBarButtonItem93
@@ -2119,7 +2220,13 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem19.CommandName = "FunctionsAutoSumCommandGroup"
 			Me.spreadsheetCommandBarSubItem19.Id = 160
-			Me.spreadsheetCommandBarSubItem19.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem73), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem74), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem75), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem76), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem77)})
+			Me.spreadsheetCommandBarSubItem19.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem73),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem74),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem75),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem76),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem77)
+			})
 			Me.spreadsheetCommandBarSubItem19.Name = "spreadsheetCommandBarSubItem19"
 			' 
 			' functionsFinancialItem1
@@ -2156,7 +2263,13 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem20.CommandName = "FunctionsMoreCommandGroup"
 			Me.spreadsheetCommandBarSubItem20.Id = 167
-			Me.spreadsheetCommandBarSubItem20.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.functionsStatisticalItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.functionsEngineeringItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.functionsInformationItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.functionsCompatibilityItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.functionsWebItem1)})
+			Me.spreadsheetCommandBarSubItem20.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.functionsStatisticalItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.functionsEngineeringItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.functionsInformationItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.functionsCompatibilityItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.functionsWebItem1)
+			})
 			Me.spreadsheetCommandBarSubItem20.Name = "spreadsheetCommandBarSubItem20"
 			' 
 			' functionsStatisticalItem1
@@ -2248,7 +2361,10 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem21.CommandName = "EditingMailMergeMasterDetailCommandGroup"
 			Me.spreadsheetCommandBarSubItem21.Id = 182
-			Me.spreadsheetCommandBarSubItem21.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem105), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem106)})
+			Me.spreadsheetCommandBarSubItem21.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem105),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem106)
+			})
 			Me.spreadsheetCommandBarSubItem21.Name = "spreadsheetCommandBarSubItem21"
 			Me.spreadsheetCommandBarSubItem21.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large
 			' 
@@ -2314,7 +2430,12 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem22.CommandName = "ViewFreezePanesCommandGroup"
 			Me.spreadsheetCommandBarSubItem22.Id = 192
-			Me.spreadsheetCommandBarSubItem22.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem111), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem112), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem113), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem114)})
+			Me.spreadsheetCommandBarSubItem22.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem111),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem112),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem113),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonItem114)
+			})
 			Me.spreadsheetCommandBarSubItem22.Name = "spreadsheetCommandBarSubItem22"
 			' 
 			' spreadsheetCommandBarButtonItem111
@@ -2411,7 +2532,10 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem23.CommandName = "ChartAxisTitlesCommandGroup"
 			Me.spreadsheetCommandBarSubItem23.Id = 202
-			Me.spreadsheetCommandBarSubItem23.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem12), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem13)})
+			Me.spreadsheetCommandBarSubItem23.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem12),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem13)
+			})
 			Me.spreadsheetCommandBarSubItem23.Name = "spreadsheetCommandBarSubItem23"
 			' 
 			' spreadsheetCommandBarButtonGalleryDropDownItem12
@@ -2538,7 +2662,10 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem24.CommandName = "ChartAxesCommandGroup"
 			Me.spreadsheetCommandBarSubItem24.Id = 207
-			Me.spreadsheetCommandBarSubItem24.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem16), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem17)})
+			Me.spreadsheetCommandBarSubItem24.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem16),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem17)
+			})
 			Me.spreadsheetCommandBarSubItem24.Name = "spreadsheetCommandBarSubItem24"
 			' 
 			' spreadsheetCommandBarButtonGalleryDropDownItem16
@@ -2611,7 +2738,10 @@ Namespace CustomDrawExample
 			' 
 			Me.spreadsheetCommandBarSubItem25.CommandName = "ChartGridlinesCommandGroup"
 			Me.spreadsheetCommandBarSubItem25.Id = 210
-			Me.spreadsheetCommandBarSubItem25.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem18), New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem19)})
+			Me.spreadsheetCommandBarSubItem25.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem18),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.spreadsheetCommandBarButtonGalleryDropDownItem19)
+			})
 			Me.spreadsheetCommandBarSubItem25.Name = "spreadsheetCommandBarSubItem25"
 			' 
 			' spreadsheetCommandBarButtonGalleryDropDownItem18
