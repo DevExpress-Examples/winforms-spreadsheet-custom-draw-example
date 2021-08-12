@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/WindowsFormsApp1/Form1.cs) (VB: [Form1.vb](./VB/WindowsFormsApp1/Form1.vb))
+* [Form1.cs](./CS/WindowsFormsApp1/Form1.cs) (VB: [Form1.vb](./VB/CustomDrawExample/Form1.vb))
 <!-- default file list end -->
 # WinForms Spreadsheet - How to Use Custom Draw Events to Customize the Appearance of Spreadsheet Elements
 

@@ -1,7 +1,9 @@
-﻿using System;
+﻿#region #using
+using System;
 using System.Drawing;
 using DevExpress.Spreadsheet;
 using DevExpress.XtraSpreadsheet;
+#endregion #using
 
 namespace WindowsFormsApp1
 {
