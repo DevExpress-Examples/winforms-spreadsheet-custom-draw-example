@@ -776,8 +776,7 @@ namespace WindowsFormsApp1
             this.spreadsheetControl1.CustomDrawRowHeaderBackground += new DevExpress.XtraSpreadsheet.CustomDrawRowHeaderBackgroundEventHandler(this.spreadsheetControl1_CustomDrawRowHeaderBackground);
             // 
             // ribbonControl1
-            // 
-            this.ribbonControl1.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(30, 31, 30, 31);
+            //
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
