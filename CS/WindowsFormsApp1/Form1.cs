@@ -125,7 +125,7 @@ namespace WindowsFormsApp1
         }
         #endregion #CustomDrawCellBackground
 
-        #region CustomDrawColumnHeader
+        #region #CustomDrawColumnHeader
         private void spreadsheetControl1_CustomDrawColumnHeader(object sender, 
             CustomDrawColumnHeaderEventArgs e)
         {           
@@ -156,9 +156,9 @@ namespace WindowsFormsApp1
                 }
             }
         }
-        #endregion CustomDrawColumnHeader
+        #endregion #CustomDrawColumnHeader
 
-        #region CustomDrawColumnHeaderBackground
+        #region #CustomDrawColumnHeaderBackground
         private void spreadsheetControl1_CustomDrawColumnHeaderBackground(object sender, 
             CustomDrawColumnHeaderBackgroundEventArgs e)
         {
@@ -177,9 +177,9 @@ namespace WindowsFormsApp1
                 e.Cache.FillRectangle(e.Cache.GetSolidBrush(backColor), e.Bounds);
             }
         }
-        #endregion CustomDrawColumnHeaderBackground
+        #endregion #CustomDrawColumnHeaderBackground
 
-        #region CustomDrawRowHeader
+        #region #CustomDrawRowHeader
         private void spreadsheetControl1_CustomDrawRowHeader(object sender, CustomDrawRowHeaderEventArgs e)
         {
             // Cancel default painting for the row header.
@@ -208,9 +208,9 @@ namespace WindowsFormsApp1
                     e.Cache.GetSolidBrush(Color.FromArgb(91, 155, 213)), textBounds, format);
             }
         }
-        #endregion CustomDrawRowHeader
+        #endregion #CustomDrawRowHeader
 
-        #region CustomDrawRowHeaderBackground
+        #region #CustomDrawRowHeaderBackground
         private void spreadsheetControl1_CustomDrawRowHeaderBackground(object sender, 
             CustomDrawRowHeaderBackgroundEventArgs e)
         {
@@ -225,6 +225,6 @@ namespace WindowsFormsApp1
                 Color.White;
             e.Cache.FillRectangle(e.Cache.GetSolidBrush(backColor), e.Bounds);
         }
-        #endregion CustomDrawRowHeaderBackground
+        #endregion #CustomDrawRowHeaderBackground
     }
 }
