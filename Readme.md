@@ -14,6 +14,6 @@ This example demonstrates how to use custom draw events to customize the appeara
 
 * [Form1.cs](./CS/WindowsFormsApp1/Form1.cs) (VB: [Form1.vb](./VB/CustomDrawExample/Form1.vb))
 
-  ## Documentation
+## Documentation
 
-  * [Use the Custom Draw Events to Customize the Appearance of Spreadsheet Elements](https://docs.devexpress.com/WindowsForms/403322/controls-and-libraries/spreadsheet/cell-basics/custom-draw)
+* [Use the Custom Draw Events to Customize the Appearance of Spreadsheet Elements](https://docs.devexpress.com/WindowsForms/403322/controls-and-libraries/spreadsheet/cell-basics/custom-draw)
